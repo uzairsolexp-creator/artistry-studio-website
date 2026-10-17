@@ -1,0 +1,570 @@
+{
+  "products": [
+    {
+      "name": "Phone cover",
+      "category": "Phone Cases",
+      "price": 2000,
+      "oldPrice": null,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p01_1.jpg",
+        "images/p01_2.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Resin mini earings",
+      "category": "Earrings",
+      "price": 1800,
+      "oldPrice": 2000,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p02_1.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Resin mini earings",
+      "category": "Earrings",
+      "price": 1000,
+      "oldPrice": 1200,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p03_1.jpg",
+        "images/p03_2.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Resin mini earings",
+      "category": "Earrings",
+      "price": 1000,
+      "oldPrice": 1200,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p04_1.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Rose bangles (pair)",
+      "category": "Bangles",
+      "price": 1300,
+      "oldPrice": 1400,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p05_1.jpg",
+        "images/p05_2.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Rose set",
+      "category": "Gift Sets",
+      "price": 4000,
+      "oldPrice": 4500,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p06_1.jpg",
+        "images/p06_2.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Rose Bangles",
+      "category": "Bangles",
+      "price": 550,
+      "oldPrice": 600,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p07_1.jpg",
+        "images/p07_2.jpg",
+        "images/p07_3.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Rose set",
+      "category": "Gift Sets",
+      "price": 1800,
+      "oldPrice": 2000,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p08_1.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Kundan bangles",
+      "category": "Bangles",
+      "price": 1600,
+      "oldPrice": 2000,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p09_1.jpg",
+        "images/p09_2.jpg",
+        "images/p09_3.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Car hangings",
+      "category": "Car Hangings",
+      "price": 1200,
+      "oldPrice": 1500,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p10_1.jpg",
+        "images/p10_2.jpg",
+        "images/p10_3.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Car hanging",
+      "category": "Car Hangings",
+      "price": 1200,
+      "oldPrice": 1500,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p11_1.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Car hanging",
+      "category": "Car Hangings",
+      "price": 1200,
+      "oldPrice": 1500,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p12_1.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Car hanging",
+      "category": "Car Hangings",
+      "price": 1200,
+      "oldPrice": 1500,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p13_1.jpg",
+        "images/p13_2.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Resin keychains",
+      "category": "Keychains",
+      "price": 450,
+      "oldPrice": 600,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p14_1.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Resin keychain",
+      "category": "Keychains",
+      "price": 350,
+      "oldPrice": 500,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p15_1.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Rose resin keychain",
+      "category": "Keychains",
+      "price": 450,
+      "oldPrice": 600,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p16_1.jpg",
+        "images/p16_2.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Resin keychains",
+      "category": "Keychains",
+      "price": 550,
+      "oldPrice": 650,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p17_1.jpg",
+        "images/p17_2.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Gajra bangles",
+      "category": "Bangles",
+      "price": 1000,
+      "oldPrice": 1200,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p18_1.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Gajra bangles",
+      "category": "Bangles",
+      "price": 1500,
+      "oldPrice": 1800,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p19_1.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Gajra bangles",
+      "category": "Bangles",
+      "price": 1200,
+      "oldPrice": 1500,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p20_1.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Gajra bangles",
+      "category": "Bangles",
+      "price": 2200,
+      "oldPrice": 2500,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p21_1.jpg",
+        "images/p21_2.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Gajra bangles",
+      "category": "Bangles",
+      "price": 1300,
+      "oldPrice": 1500,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p22_1.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Gajra bangles",
+      "category": "Bangles",
+      "price": 2500,
+      "oldPrice": 2800,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p23_1.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Gajra bangles",
+      "category": "Bangles",
+      "price": 1000,
+      "oldPrice": 1200,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p24_1.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Gajra bangles",
+      "category": "Bangles",
+      "price": 3200,
+      "oldPrice": 3500,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p25_1.jpg",
+        "images/p25_2.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Resin pens",
+      "category": "Pens",
+      "price": 700,
+      "oldPrice": 1000,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p26_1.jpg",
+        "images/p26_2.jpg",
+        "images/p26_3.jpg",
+        "images/p26_4.jpg",
+        "images/p26_5.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Resin pendant",
+      "category": "Pens",
+      "price": 1400,
+      "oldPrice": 1800,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p27_1.jpg",
+        "images/p27_2.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Resin mini earings",
+      "category": "Earrings",
+      "price": 1000,
+      "oldPrice": 1200,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p28_1.jpg",
+        "images/p28_2.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Resin mini earings",
+      "category": "Earrings",
+      "price": 1500,
+      "oldPrice": 1800,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p29_1.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Resin mini earings",
+      "category": "Earrings",
+      "price": 1500,
+      "oldPrice": 1800,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p30_1.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Resin mini earings",
+      "category": "Earrings",
+      "price": 1400,
+      "oldPrice": 1700,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p31_1.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Resin mini earings",
+      "category": "Earrings",
+      "price": 1400,
+      "oldPrice": 1700,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p32_1.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Resin mini earings",
+      "category": "Earrings",
+      "price": 1500,
+      "oldPrice": 1800,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p33_1.jpg",
+        "images/p33_2.jpg",
+        "images/p33_3.jpg",
+        "images/p33_4.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Resin mini earings",
+      "category": "Earrings",
+      "price": 1500,
+      "oldPrice": 1800,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p34_1.jpg",
+        "images/p34_2.jpg",
+        "images/p34_3.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Phone Charms",
+      "category": "Phone Charms",
+      "price": 1500,
+      "oldPrice": null,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p35_1.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Phone Charms",
+      "category": "Phone Charms",
+      "price": 1500,
+      "oldPrice": null,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p36_1.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Phone Charms",
+      "category": "Phone Charms",
+      "price": 1500,
+      "oldPrice": null,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p37_1.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Resin Earings",
+      "category": "Earrings",
+      "price": 3200,
+      "oldPrice": 3500,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p38_1.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Resin Earings",
+      "category": "Earrings",
+      "price": 2800,
+      "oldPrice": 3000,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p39_1.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Resin Earings",
+      "category": "Earrings",
+      "price": 2800,
+      "oldPrice": 3000,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p40_1.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Resin mini earings",
+      "category": "Earrings",
+      "price": 800,
+      "oldPrice": 1000,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p41_1.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Phone Charm",
+      "category": "Phone Charms",
+      "price": 1500,
+      "oldPrice": null,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p42_1.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Resin Earings",
+      "category": "Earrings",
+      "price": 3200,
+      "oldPrice": 3500,
+      "description": "Pressed flowers in resin earings of Antique high quality base",
+      "images": [
+        "images/p43_1.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Resin Earings",
+      "category": "Earrings",
+      "price": 3500,
+      "oldPrice": 3800,
+      "description": "Real pressed dried flowers preserved in resin",
+      "images": [
+        "images/p44_1.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Resin Earings",
+      "category": "Earrings",
+      "price": 3200,
+      "oldPrice": 3500,
+      "description": "Handmade by Artistry Studio \u2014 message us on WhatsApp for customization options.",
+      "images": [
+        "images/p45_1.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Daisy Earings",
+      "category": "Earrings",
+      "price": 2200,
+      "oldPrice": 2500,
+      "description": "Real pressed and dried flowers in resin",
+      "images": [
+        "images/p46_1.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Beaded Bag",
+      "category": "Beaded Bags",
+      "price": 6500,
+      "oldPrice": 7000,
+      "description": "Floral beaded clutch",
+      "images": [
+        "images/p47_1.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Beaded bag",
+      "category": "Beaded Bags",
+      "price": 6000,
+      "oldPrice": 6500,
+      "description": "Blue crystal beaded bag",
+      "images": [
+        "images/p48_1.jpg",
+        "images/p48_2.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "name": "Beaded bag",
+      "category": "Beaded Bags",
+      "price": 6500,
+      "oldPrice": 6900,
+      "description": "Black crystal beaded bag with handle",
+      "images": [
+        "images/p49_1.jpg"
+      ],
+      "inStock": true
+    }
+  ]
+}

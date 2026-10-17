@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artistry Studio — Handmade Customized Resin Art</title>
+  <meta name="description" content="Artistry Studio — handmade customized resin art from Pakistan. Glitter phone cases, name keychains, bangles, rings, pens, coasters and dua plaques, made just for you. Order on WhatsApp.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Sticky nav -->
+  <nav class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#home">Artistry <span>Studio</span></a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#custom">Custom Order</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a class="nav-cta" href="https://wa.me/923097548900?text=Hi%20Artistry%20Studio!%20I%20want%20to%20place%20an%20order." target="_blank" rel="noopener">Order Now</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero" id="home">
+    <img class="hero-bg" src="images/hero.jpg" alt="Glittery pastel resin art pieces by Artistry Studio">
+    <div class="hero-overlay"></div>
+    <div class="wrap">
+      <div class="hero-content">
+        <span class="section-kicker">Handmade in Pakistan</span>
+        <h1>Handcrafted resin art, <em>made only for you.</em></h1>
+        <p>Customized glitter phone cases, name keychains, bangles, rings, pens, coasters and dua plaques — each piece poured, cured and finished by hand.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="https://wa.me/923097548900?text=Hi%20Artistry%20Studio!%20I%20want%20to%20shop%20your%20resin%20collection." target="_blank" rel="noopener">Shop on WhatsApp</a>
+          <a class="btn btn-outline" href="#custom">Custom Order</a>
+        </div>
+        <div class="hero-badges">
+          <div><strong>100%</strong>Handmade</div>
+          <div><strong>Made-to-order</strong>Customized</div>
+          <div><strong>Pakistan</strong>Delivery available</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Shop -->
+  <section id="shop">
+    <div class="wrap">
+      <span class="section-kicker">The Collection</span>
+      <h2 class="section-title">Shop the pieces</h2>
+      <p class="section-sub">Every piece is made to order with your choice of colors, names and details. Tap a category to filter, then order directly on WhatsApp.</p>
+      <div class="chips" id="chips"></div>
+      <div class="grid" id="product-grid"></div>
+    </div>
+  </section>
+
+  <!-- Custom order -->
+  <section class="custom" id="custom">
+    <div class="wrap">
+      <span class="section-kicker">Made For You</span>
+      <h2 class="section-title">Custom order</h2>
+      <p class="section-sub">Dream it, we pour it. Tell us what you want — colors, name, style — and we will confirm your design on WhatsApp before we start.</p>
+      <form class="order-form" id="order-form">
+        <div class="field">
+          <label for="f-name">Your name</label>
+          <input type="text" id="f-name" placeholder="e.g. Mohsinsbelovedwife" required>
+        </div>
+        <div class="field">
+          <label for="f-type">Product type</label>
+          <select id="f-type" required>
+            <option value="" disabled selected>Choose a product</option>
+            <option>Phone Cases</option>
+            <option>Jhumkay &amp; Earrings</option>
+            <option>Necklaces</option>
+            <option>Rings</option>
+            <option>Bangles &amp; Kara</option>
+            <option>Keychains</option>
+            <option>Car Hangings</option>
+            <option>Plaques</option>
+            <option>Preservation</option>
+            <option>Jewelry Sets</option>
+            <option>Something else</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="f-colors">Color preferences</label>
+          <input type="text" id="f-colors" placeholder="e.g. blush pink and gold, with dried flowers">
+        </div>
+        <div class="field">
+          <label for="f-details">Design details</label>
+          <textarea id="f-details" placeholder="Name or text to add, phone model, size, or any special request..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Order on WhatsApp</button>
+        <p class="form-note">Submitting opens WhatsApp with your order details pre-filled. Nothing is charged online.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="wrap">
+      <div class="about-grid">
+        <div class="about-img">
+          <img src="images/about.jpg" alt="LED heart frame with personalized name by Artistry Studio">
+        </div>
+        <div>
+          <span class="section-kicker">Our Story</span>
+          <h2 class="section-title">Poured with love, one piece at a time</h2>
+          <p class="section-sub">Artistry Studio is a small handmade resin studio in Pakistan. We turn glitter, dried flowers and gold accents into keepsakes you will treasure — phone cases with your name in calligraphy, keychains for your loved ones, coasters for your home.</p>
+          <ul class="about-points">
+            <li>Every piece is handmade and fully customizable</li>
+            <li>Made to order — nothing mass-produced</li>
+            <li>Careful packaging for safe delivery across Pakistan</li>
+            <li>International orders welcome — message us on WhatsApp</li>
+          </ul>
+          <div class="policy-box">
+            <strong>Payment policy:</strong> Half or full advance payment confirms your order. We begin crafting only after the advance is received.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section class="reviews" id="reviews">
+    <div class="wrap">
+      <span class="section-kicker">Customer Love</span>
+      <h2 class="section-title">Hamare customers kya kehte hain</h2>
+      <p class="section-sub">Kuch mohabbat bhare alfaaz hamare customers ki taraf se.</p>
+    </div>
+    <div class="marquee">
+      <div class="marquee-track">
+        <article class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p>Mera name wala keychain itna pyara bana ke dil khush ho gaya. Packing bhi bohat neat thi!</p>
+          <div class="review-name">Ayesha K.</div>
+        </article>
+        <article class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p>Phone case ki quality zabardast hai, glitter bilkul waisa hi jaisa tasveer mein tha.</p>
+          <div class="review-name">Fatima R.</div>
+        </article>
+        <article class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p>Custom order pe jo design manga tha wohi bana ke diya, aur time pe deliver bhi hua.</p>
+          <div class="review-name">Hira S.</div>
+        </article>
+        <article class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p>Coaster set gift kiya tha, sab ne bohat tareef ki. Bohat shukriya Artistry Studio!</p>
+          <div class="review-name">Mahnoor A.</div>
+        </article>
+        <article class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p>Dua plaque itna khubsurat bana hai ke ghar mein lagate hi ronak aa gayi.</p>
+          <div class="review-name">Sadia M.</div>
+        </article>
+        <article class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p>WhatsApp pe foran reply mila, order karna bohat asaan tha. Highly recommended!</p>
+          <div class="review-name">Zainab T.</div>
+        </article>
+        <article class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p>Mera name wala keychain itna pyara bana ke dil khush ho gaya. Packing bhi bohat neat thi!</p>
+          <div class="review-name">Ayesha K.</div>
+        </article>
+        <article class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p>Phone case ki quality zabardast hai, glitter bilkul waisa hi jaisa tasveer mein tha.</p>
+          <div class="review-name">Fatima R.</div>
+        </article>
+        <article class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p>Custom order pe jo design manga tha wohi bana ke diya, aur time pe deliver bhi hua.</p>
+          <div class="review-name">Hira S.</div>
+        </article>
+        <article class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p>Coaster set gift kiya tha, sab ne bohat tareef ki. Bohat shukriya Artistry Studio!</p>
+          <div class="review-name">Mahnoor A.</div>
+        </article>
+        <article class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p>Dua plaque itna khubsurat bana hai ke ghar mein lagate hi ronak aa gayi.</p>
+          <div class="review-name">Sadia M.</div>
+        </article>
+        <article class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p>WhatsApp pe foran reply mila, order karna bohat asaan tha. Highly recommended!</p>
+          <div class="review-name">Zainab T.</div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <span class="section-kicker">Get In Touch</span>
+      <h2 class="section-title">Let's create something beautiful</h2>
+      <p class="section-sub">Message us anytime — for orders, custom designs, prices or delivery details. We reply as fast as we can.</p>
+      <div class="contact-actions">
+        <a class="btn btn-primary" href="https://wa.me/923097548900?text=Hi%20Artistry%20Studio!%20I%20have%20a%20question%20about%20your%20resin%20products." target="_blank" rel="noopener">Chat on WhatsApp</a>
+        <a class="btn btn-whatsapp-channel" href="https://whatsapp.com/channel/0029VbCq53I9Bb5xUAGoYu2X" target="_blank" rel="noopener">WhatsApp Channel</a>
+        <a class="btn btn-instagram" href="https://www.instagram.com/artistry_studio31" target="_blank" rel="noopener">Follow on Instagram</a>
+        <a class="btn btn-tiktok" href="https://www.tiktok.com/@artistry.studio31" target="_blank" rel="noopener">Follow on TikTok</a>
+        <a class="btn btn-youtube" href="https://www.youtube.com/@artistrystudio31" target="_blank" rel="noopener">Watch on YouTube</a>
+      </div>
+      <p class="contact-note">WhatsApp: 0309 7548900<br>Please note: half or full advance payment is required to confirm your order.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="wrap footer-inner">
+      <div class="footer-brand">Artistry <span>Studio</span></div>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#shop">Shop</a>
+        <a href="#custom">Custom Order</a>
+        <a href="#about">About</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+        <a href="https://www.instagram.com/artistry_studio31" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.tiktok.com/@artistry.studio31" target="_blank" rel="noopener">TikTok</a>
+        <a href="https://www.youtube.com/@artistrystudio31" target="_blank" rel="noopener">YouTube</a>
+        <a href="https://whatsapp.com/channel/0029VbCq53I9Bb5xUAGoYu2X" target="_blank" rel="noopener">WhatsApp Channel</a>
+      </div>
+      <div class="footer-small">Handmade customized resin art · Pakistan · © 2026 Artistry Studio. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <!-- Product lightbox: full-size photo view -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
+    <figure class="lightbox-box" role="dialog" aria-modal="true" aria-label="Product preview">
+      <button class="lightbox-close" id="lightbox-close" aria-label="Close preview">&times;</button>
+      <div class="lightbox-stage" id="lightbox-stage">
+        <button class="lightbox-prev" id="lightbox-prev" aria-label="Previous photo">&#8249;</button>
+        <img id="lightbox-img" src="" alt="">
+        <button class="lightbox-next" id="lightbox-next" aria-label="Next photo">&#8250;</button>
+      </div>
+      <div class="lightbox-dots" id="lightbox-dots"></div>
+      <figcaption>
+        <div class="lightbox-name" id="lightbox-name"></div>
+        <div class="lightbox-price" id="lightbox-price"></div>
+        <p class="lightbox-note">For more details, <a id="lightbox-wa" href="https://wa.me/923097548900" target="_blank" rel="noopener">come to WhatsApp!</a></p>
+        <a class="btn btn-primary" id="lightbox-order" href="#" target="_blank" rel="noopener">Order on WhatsApp</a>
+      </figcaption>
+    </figure>
+  </div>
+
+  <script>
+    (function () {
+      var WA_NUMBER = "923097548900";
+      var grid = document.getElementById("product-grid");
+      var chipsBox = document.getElementById("chips");
+      var activeCat = "All";
+      var PRODUCTS = [];
+
+      function waLink(message) {
+        return "https://wa.me/" + WA_NUMBER + "?text=" + encodeURIComponent(message);
+      }
+
+      function fmtPrice(n) {
+        if (n === null || n === undefined) return "Price on WhatsApp";
+        return "Rs. " + n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+      }
+
+      function orderText(p) {
+        var msg = "Hi Artistry Studio! I want to order: " + p.name;
+        if (p.price !== null && p.price !== undefined) msg += " (" + fmtPrice(p.price) + ")";
+        return msg;
+      }
+
+      function detailsText(p) {
+        var msg = "Hi Artistry Studio! I want details about: " + p.name;
+        if (p.price !== null && p.price !== undefined) msg += " (" + fmtPrice(p.price) + ")";
+        return msg;
+      }
+
+      // Build category chips from the catalog
+      function buildChips() {
+      var cats = ["All"];
+      PRODUCTS.forEach(function (p) {
+        if (cats.indexOf(p.category) === -1) cats.push(p.category);
+      });
+      cats.forEach(function (c) {
+        var b = document.createElement("button");
+        b.className = "chip" + (c === "All" ? " active" : "");
+        b.textContent = c;
+        b.type = "button";
+        b.addEventListener("click", function () {
+          activeCat = c;
+          var all = chipsBox.querySelectorAll(".chip");
+          for (var i = 0; i < all.length; i++) all[i].classList.remove("active");
+          b.classList.add("active");
+          render();
+        });
+        chipsBox.appendChild(b);
+      });
+      }
+
+      // Render product cards
+      function render() {
+        grid.innerHTML = "";
+        var i = 0;
+        PRODUCTS.forEach(function (p) {
+          if (activeCat !== "All" && p.category !== activeCat) return;
+          var card = document.createElement("article");
+          card.className = "card";
+          card.style.animation = "cardIn 0.55s cubic-bezier(0.22,0.61,0.36,1) both";
+          card.style.animationDelay = (i * 0.06).toFixed(2) + "s";
+          i++;
+
+          var imgWrap = document.createElement("div");
+          imgWrap.className = "card-img";
+          var img = document.createElement("img");
+          var pImgs = (p.images && p.images.length ? p.images : [p.image]).filter(Boolean);
+          img.src = pImgs[0];
+          img.alt = p.name + " — handmade resin art by Artistry Studio";
+          img.loading = "lazy";
+          if (p.w && p.h) { img.width = p.w; img.height = p.h; }
+          if (i === 1) img.fetchPriority = "high";
+          imgWrap.appendChild(img);
+          if (p.inStock === false) {
+            var stockBadge = document.createElement("div");
+            stockBadge.className = "card-stock";
+            stockBadge.textContent = "Out of stock";
+            imgWrap.appendChild(stockBadge);
+          }
+          if (pImgs.length > 1) {
+            var badge = document.createElement("div");
+            badge.className = "card-photos";
+            badge.textContent = "+" + (pImgs.length - 1) + " more";
+            imgWrap.appendChild(badge);
+          }
+          imgWrap.addEventListener("click", function () { openLightbox(p); });
+
+          var body = document.createElement("div");
+          body.className = "card-body";
+
+          var cat = document.createElement("div");
+          cat.className = "card-cat";
+          cat.textContent = p.category;
+
+          var h = document.createElement("h3");
+          h.textContent = p.name;
+
+          var d = document.createElement("p");
+          d.textContent = p.description;
+
+          var price = document.createElement("div");
+          price.className = "card-price";
+          var offer = document.createElement("span");
+          offer.className = "price-offer";
+          offer.textContent = fmtPrice(p.price);
+          price.appendChild(offer);
+          if (p.oldPrice) {
+            var oldP = document.createElement("s");
+            oldP.className = "price-old";
+            oldP.textContent = fmtPrice(p.oldPrice);
+            price.appendChild(document.createTextNode(" "));
+            price.appendChild(oldP);
+          }
+
+          var a = document.createElement("a");
+          a.className = "btn btn-primary";
+          if (p.inStock === false) {
+            a.classList.add("btn-disabled");
+            a.textContent = "Out of stock";
+            a.setAttribute("aria-disabled", "true");
+          } else {
+            a.target = "_blank";
+            a.rel = "noopener";
+            a.href = waLink(orderText(p));
+            a.textContent = "Order on WhatsApp";
+          }
+
+          body.appendChild(cat);
+          body.appendChild(h);
+          body.appendChild(d);
+          body.appendChild(price);
+          body.appendChild(a);
+          card.appendChild(imgWrap);
+          card.appendChild(body);
+          grid.appendChild(card);
+        });
+      }
+
+      // Load catalog, then build chips + render cards
+      fetch("data/products.json")
+        .then(function (r) { return r.json(); })
+        .then(function (data) {
+          PRODUCTS = ((data && data.products) || []).map(function (p) {
+            // Normalize: admin may save photos as strings or {image: "..."} objects
+            p.images = (p.images || []).map(function (im) {
+              return (typeof im === "string") ? im : (im && im.image);
+            }).filter(Boolean);
+            if (p.inStock === undefined || p.inStock === null) p.inStock = true;
+            return p;
+          });
+          buildChips();
+          render();
+        })
+        .catch(function () {
+          grid.innerHTML = "<p style='text-align:center;padding:40px'>Products could not be loaded. Please refresh the page.</p>";
+        });
+
+      // Custom order form → WhatsApp
+      document.getElementById("order-form").addEventListener("submit", function (e) {
+        e.preventDefault();
+        var name = document.getElementById("f-name").value.trim();
+        var type = document.getElementById("f-type").value;
+        var colors = document.getElementById("f-colors").value.trim();
+        var details = document.getElementById("f-details").value.trim();
+
+        var msg = "Hi Artistry Studio! I want to place a custom order.\n"
+          + "Name: " + name + "\n"
+          + "Product: " + type + "\n"
+          + "Colors: " + (colors || "-") + "\n"
+          + "Details: " + (details || "-");
+
+        window.open(waLink(msg), "_blank");
+      });
+
+      // Product lightbox — photo carousel (swipe / arrows / dots)
+      var lightbox = document.getElementById("lightbox");
+      var lbStage = document.getElementById("lightbox-stage");
+      var lbImg = document.getElementById("lightbox-img");
+      var lbDots = document.getElementById("lightbox-dots");
+      var lbPrev = document.getElementById("lightbox-prev");
+      var lbNext = document.getElementById("lightbox-next");
+      var lbName = document.getElementById("lightbox-name");
+      var lbPrice = document.getElementById("lightbox-price");
+      var lbOrder = document.getElementById("lightbox-order");
+      var lbWa = document.getElementById("lightbox-wa");
+      var lbImgs = [];
+      var lbIdx = 0;
+
+      function lbShow(i) {
+        if (!lbImgs.length) return;
+        lbIdx = (i + lbImgs.length) % lbImgs.length;
+        lbImg.src = lbImgs[lbIdx];
+        var dots = lbDots.querySelectorAll("button");
+        for (var d = 0; d < dots.length; d++) {
+          dots[d].classList.toggle("active", d === lbIdx);
+        }
+      }
+
+      function openLightbox(p) {
+        lbImgs = (p.images && p.images.length ? p.images.slice() : [p.image]).filter(Boolean);
+        lbDots.innerHTML = "";
+        for (var k = 0; k < lbImgs.length; k++) {
+          (function (idx) {
+            var b = document.createElement("button");
+            b.type = "button";
+            b.setAttribute("aria-label", "Photo " + (idx + 1));
+            b.addEventListener("click", function (e) { e.stopPropagation(); lbShow(idx); });
+            lbDots.appendChild(b);
+          })(k);
+        }
+        var multi = lbImgs.length > 1;
+        lbPrev.style.display = multi ? "" : "none";
+        lbNext.style.display = multi ? "" : "none";
+        lbDots.style.display = multi ? "" : "none";
+        lbImg.alt = p.name + " — handmade resin art by Artistry Studio";
+        lbName.textContent = p.name;
+        lbPrice.innerHTML = "";
+        var lbOffer = document.createElement("span");
+        lbOffer.className = "price-offer";
+        lbOffer.textContent = fmtPrice(p.price);
+        lbPrice.appendChild(lbOffer);
+        if (p.oldPrice) {
+          var lbOld = document.createElement("s");
+          lbOld.className = "price-old";
+          lbOld.textContent = fmtPrice(p.oldPrice);
+          lbPrice.appendChild(document.createTextNode(" "));
+          lbPrice.appendChild(lbOld);
+        }
+        if (p.inStock === false) {
+          lbOrder.removeAttribute("href");
+          lbOrder.classList.add("btn-disabled");
+          lbOrder.textContent = "Out of stock";
+        } else {
+          lbOrder.href = waLink(orderText(p));
+          lbOrder.classList.remove("btn-disabled");
+          lbOrder.textContent = "Order on WhatsApp";
+        }
+        lbWa.href = waLink(detailsText(p));
+        lbShow(0);
+        lightbox.classList.add("open");
+        lightbox.setAttribute("aria-hidden", "false");
+        document.body.style.overflow = "hidden";
+      }
+
+      function closeLightbox() {
+        lightbox.classList.remove("open");
+        lightbox.setAttribute("aria-hidden", "true");
+        document.body.style.overflow = "";
+        lbImg.src = "";
+        lbImgs = [];
+      }
+
+      lbPrev.addEventListener("click", function (e) { e.stopPropagation(); lbShow(lbIdx - 1); });
+      lbNext.addEventListener("click", function (e) { e.stopPropagation(); lbShow(lbIdx + 1); });
+
+      // Swipe left/right on the photo
+      var touchX = null;
+      lbStage.addEventListener("touchstart", function (e) { touchX = e.changedTouches[0].clientX; }, { passive: true });
+      lbStage.addEventListener("touchend", function (e) {
+        if (touchX === null) return;
+        var dx = e.changedTouches[0].clientX - touchX;
+        if (dx > 40) lbShow(lbIdx - 1);
+        else if (dx < -40) lbShow(lbIdx + 1);
+        touchX = null;
+      }, { passive: true });
+
+      document.getElementById("lightbox-close").addEventListener("click", closeLightbox);
+      document.getElementById("lightbox-backdrop").addEventListener("click", closeLightbox);
+      document.addEventListener("keydown", function (e) {
+        if (!lightbox.classList.contains("open")) return;
+        if (e.key === "Escape") closeLightbox();
+        else if (e.key === "ArrowLeft") lbShow(lbIdx - 1);
+        else if (e.key === "ArrowRight") lbShow(lbIdx + 1);
+      });
+    })();
+  </script>
+  <script>
+    /* Scroll reveal + hero glitter sparkles */
+    (function () {
+      // Fade sections up as they scroll into view.
+      // threshold: 0 — tall sections (e.g. the 28-product shop grid on phones)
+      // can never reach a % threshold, so any visible pixel reveals them.
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) {
+            e.target.classList.add("visible");
+            io.unobserve(e.target);
+          }
+        });
+      }, { threshold: 0, rootMargin: "0px 0px -30px 0px" });
+
+      document.querySelectorAll("section .wrap, footer .footer-inner").forEach(function (el) {
+        el.classList.add("reveal");
+        io.observe(el);
+      });
+
+      // Safety net: never leave a section invisible (odd webviews, blocked APIs).
+      setTimeout(function () {
+        document.querySelectorAll(".reveal:not(.visible)").forEach(function (el) {
+          el.classList.add("visible");
+        });
+      }, 2500);
+
+      // Floating glitter sparkles in the hero
+      var hero = document.querySelector(".hero");
+      if (hero) {
+        var box = document.createElement("div");
+        box.className = "sparkles";
+        for (var i = 0; i < 16; i++) {
+          var s = document.createElement("span");
+          s.className = "sparkle";
+          var size = 4 + Math.random() * 8;
+          s.style.width = s.style.height = size.toFixed(0) + "px";
+          s.style.left = (Math.random() * 100).toFixed(1) + "%";
+          s.style.top = (Math.random() * 100).toFixed(1) + "%";
+          s.style.animationDelay = (Math.random() * 3).toFixed(2) + "s";
+          s.style.animationDuration = (2.4 + Math.random() * 2.4).toFixed(2) + "s";
+          box.appendChild(s);
+        }
+        hero.appendChild(box);
+      }
+    })();
+  </script>
+</body>
+</html>
